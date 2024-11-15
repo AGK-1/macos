@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 debian:trixie-slim AS builder
+FROM --platform=linux/amd64 debian:trixie-slim AS builder//ok
 
 ARG VERSION_KVM_OPENCORE="v21"
 ARG REPO_KVM_OPENCORE="https://github.com/thenickdude/KVM-Opencore"
