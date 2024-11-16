@@ -1,7 +1,7 @@
 FROM --platform=linux/amd64 debian:trixie-slim AS builder//ok
 
 ARG VERSION_KVM_OPENCORE="v21"
-ARG REPO_KVM_OPENCORE="https://github.com/thenickdude/KVM-Opencore"
+ARG REPO_KVM_OPENCORE="https://github.com/thenickdude/KVM-Opencore" //run
 
 ARG DEBCONF_NOWARNINGS="yes"
 ARG DEBIAN_FRONTEND="noninteractive"
